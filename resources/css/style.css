@@ -1,0 +1,118 @@
+body {
+      background-color: rgba(0, 0, 0, 0.5);
+      background: url('/public/media/gamebg.jpg');
+      min-height: 100vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      color: rgb(0, 255, 68);
+}
+
+.custom-tx-color {
+      color: rgb(0, 255, 68);
+      text-shadow:0 0 30px #b355d0,
+      0 0 20px #b355d0,
+      0 0 40px #b355d0;
+}
+
+.navbar {
+      background-color: #333;
+      color: #fff;
+}
+
+.navbar a {
+      color: #fff;
+      text-decoration: none;
+}
+
+.navbar a:hover {
+      color: rgb(0, 255, 68);
+      transition: 1s;
+}
+
+.card {
+      width: 500px;
+      height: 260px;
+      background-color: #333;
+      color: white;
+}
+
+.img-card {
+      height: 250px;
+}
+
+footer {
+      background-color: #333;
+      color: #fff;
+      margin-top: 500px;
+}
+
+.nav-link {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      transition: color 0.3s ease;
+}
+
+.nav-link:focus {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+      color: rgb(0, 255, 68);
+      text-decoration: none;
+      transition: color 0.3s ease;
+}
+.img-edit{
+      height: 350px;
+      width: 250px;
+}
+
+.img-edit-show{
+      height: 500px;
+      width: 350px;
+}
+
+.btn-genre-custom{
+      color: rgb(0, 255, 68);
+}
+
+.btn-genre-custom:hover{
+      color: rgb(0, 255, 68);
+}
+
+.card-dashboard{
+      width: 500px;
+      height: 360px;
+      background-color: #333;
+      color: white;
+}
+
+.navbar-toggler{
+      margin-right: 10px;
+}
+
+.header-cont{
+      margin-top: 150px;
+}
+
+@media (max-width: 768px) {
+      
+      
+      .card{
+            width: 100%;
+      }
+      .navbar-brand, .nav-link{
+            margin-left: 10px;
+      }
+      
+      .header-cont{
+            margin-top: 0px;
+      }
+      
+      .header-cont p ,h1{
+            color: #ee00ff;
+            
+      }
+}
